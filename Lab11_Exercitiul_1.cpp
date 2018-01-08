@@ -46,6 +46,7 @@ template<typename T> void Stack<T>::pop()
 
 int main() {
 	Stack <int> stiva;
+	//Introducem elemente in stiva
 	cout << "In stiva avem elementele: " << endl;
 	for (int i = 1; i <= 10; i++)
         stiva.push(i);
