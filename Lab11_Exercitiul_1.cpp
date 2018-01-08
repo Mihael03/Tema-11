@@ -17,7 +17,7 @@ public:
 
 	const T& top() const
 	{
-		if (isEmpty()) throw "Stiva este goala \n";
+		if (isEmpty()) throw "Stiva este goala \n"; //Am verificat daca stiva este goala
 		return vect.back();
 	}
 
